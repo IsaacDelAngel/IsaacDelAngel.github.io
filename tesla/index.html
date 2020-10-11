@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Hello Bulma!</title>
+		 <!-- carga la libreria bulma css -->
 		<link rel="stylesheet" 
         href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
 		<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
@@ -15,6 +16,7 @@
 /* background */		
 .hero {
 	background: black url(images/hero-1.jpg) center / cover;
+	/* las partes de abajo son css que cambian el color de fondo y colocan una imagen*/
 }
 
 @media (max-width: 1024px) { .hero { background: black url(images/hero-2.jpg) center / cover; } }
@@ -42,6 +44,8 @@
 				<img src="images/tesla.svg" style="width: 6.25rem; height: 1rem;">
 			</figure>
 		</div>
+		<!--  Hace una barra de navegacion llamando a una clase desde la cual puedes acceder a diferentes partes del sitio-->
+		<!-- No explicare los archivos css, llegados a este punto todos deberimaos saber lo que hacen (modifican, agregan, etc para que la pagina sea más estetica)-->
 		<div class="column center desktop">
 			<p class="navbar-item has-text-black">MODEL S </p>
 			<p class="navbar-item has-text-black">MODEL X </p>
@@ -62,6 +66,7 @@
 <!-- /.hero-head -->
 
 <!-- .hero-body -->
+<!-- Cambia y agrega con bulma css varias medidas y colores-->
 <header class="hero-body">
 	<div class="is-overlay has-text-centered single-spaced" style="top: 92px;">
 		<h2 class="subtitle is-4 has-text-weight-light has-text-black">Tesla</h2>
@@ -71,6 +76,7 @@
 <!-- /.hero-body -->
 
 <!-- .hero-foot -->
+<!-- Utiliza una clase de bulma para modificar la fuente y el tamaño de texto para que sea más estetico-->
 <main class="hero-foot center" style="padding: 2rem;">
 	<div id="grid" style="width: 768px;">
 		<div id="a" class="center-column">
